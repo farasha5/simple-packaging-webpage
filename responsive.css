@@ -1,0 +1,29 @@
+@media screen and (min-width: 1000px) and (max-width: 1120px) {
+    .greybox {
+        display: flex;
+        flex-direction: row;
+         width: 98%;      /* box becomes smaller */
+        padding: 40px;
+        margin: 0 auto; 
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1121px) and (max-width:1195px){
+    .greybox {
+        display: flex;
+        flex-direction: row;
+         width: 100%;      /* box becomes larger */
+        padding: 40px;
+        margin: 0 auto; 
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+}

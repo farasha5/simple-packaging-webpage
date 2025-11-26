@@ -1,0 +1,90 @@
+@media screen and (max-width: 999px) and (min-width:930px){
+    .greybox {
+        display: flex;
+        flex-direction: row;
+         width: 99%;      /* box becomes smaller */
+        padding: 40px;
+        margin: 0 auto; 
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        }
+
+    .item{
+    height: 240px;
+    width: 300px;
+    background-color: rgb(224, 223, 223);
+    border-radius: 20px;
+    
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+
+
+    
+
+    
+}
+}
+
+@media screen and (max-width:900px) and (min-width:800px) {
+    .greybox {
+        display: flex;
+        flex-direction: row;
+        width: 99%;      /* box becomes smaller */
+        transform: scale(1.05); /* 🔥 makes it visibly bigger */
+        padding: 60px;
+        margin: 0 auto; 
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        }
+}
+
+@media screen and (max-width: 799px) {
+    .greybox {
+        display: flex;
+        flex-direction: column;
+        width: 95%;         /* box takes most of the screen */
+        padding: 40px;
+        margin: 0 auto;
+        row-gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    .greybox {
+        display: flex;
+        flex-direction: column;  /* stack items vertically */
+        width: 95%;              /* almost full width */
+        padding: 50px;           /* inner spacing */
+        margin: 0 auto;          /* center horizontally */
+        row-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav-links li a{
+    display: none;
+    
+
+}
+.btns{
+    display: none;
+}
+
+.logo{
+    font-size:1.5rem ;
+    font-weight: 900;
+    margin-left: 50px;
+  font-family: "Anton", sans-serif;
+  
+
+
+    color: #020279;
+}
+
+}
