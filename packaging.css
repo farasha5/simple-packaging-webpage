@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,35 +9,35 @@
 
 nav {
     width: 100%;
-    padding:0.4rem 5% ;
-    
-    
-    margin-top:2rem ;
-    display: flex;  
+    padding: 0.4rem 5%;
+
+
+    margin-top: 2rem;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 2rem;
 }
 
-.logo{
-    font-size:1.5rem ;
+.logo {
+    font-size: 1.5rem;
     font-weight: 900;
-    
-  font-family: "Anton", sans-serif;
-  
+
+    font-family: "Anton", sans-serif;
+
 
 
     color: #020279;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
-    gap:3rem;
+    gap: 3rem;
 }
 
 
-.nav-links li a{
+.nav-links li a {
     position: relative;
     font-weight: 500px;
     font-size: 1rem;
@@ -46,11 +46,11 @@ nav {
     transition: 0.2s;
 }
 
-.btns{
+.btns {
     display: flex;
 }
 
-.btn{
+.btn {
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     background: white;
@@ -59,44 +59,44 @@ nav {
     transition: 0.2s;
 }
 
-.nav-links li a:hover{
-    
+.nav-links li a:hover {
+
     font-weight: 2.5rem;
     font-size: 1rem;
     transition: 0.2s;
     color: rgb(116, 116, 116);
 }
 
-.btn:hover{
-    
+.btn:hover {
+
     cursor: pointer;
-    background:#00000b;
+    background: #00000b;
     border: 2px solid #000000;
     color: white;
     border-radius: 20px;
     transition: 0.2s;
 }
 
-.brand-para{
-       font-family: "Lexend", sans-serif;
-       font-size: 3rem;
-       padding-top: 30px;
-       padding-left:60px ;
+.brand-para {
+    font-family: "Lexend", sans-serif;
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-left: 60px;
 }
 
-.paragraph-para{
+.paragraph-para {
     padding-left: 63px;
     padding-top: 15px;
-   
+
 }
 
-.com-para{
+.com-para {
     padding-left: 63px;
     padding-top: 8px;
 
 }
 
-.moreinfo{
+.moreinfo {
     background-color: black;
     color: white;
     padding: 10px;
@@ -107,23 +107,24 @@ nav {
     margin-top: 30px;
 }
 
-.slider{
+.slider {
 
-    margin: 0 auto;   /* centers the box horizontally */
+    margin: 0 auto;
+    /* centers the box horizontally */
 
     height: 90%;
     width: 100%;
     overflow: hidden;
-    
-    
+
+
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
     padding-bottom: 20px;
-   
-    
+
+
 }
 
-.slider-item{
+.slider-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,13 +132,13 @@ nav {
     animation: scrolling 20s linear infinite;
 }
 
-@keyframes scrolling{
-    0%{
+@keyframes scrolling {
+    0% {
         transform: translateX(80%);
-        
+
     }
 
-    100%{
+    100% {
         transform: translateX(-20%);
     }
 }
@@ -147,28 +148,29 @@ nav {
     margin-left: 20px;
 }
 
-.partner{
-    padding-top:70px;
+.partner {
+    padding-top: 70px;
     padding-bottom: 50px;
-   display: flex;
-    justify-content: center;   /* centers horizontally */
-   font-family: "Lexend", sans-serif;
+    display: flex;
+    justify-content: center;
+    /* centers horizontally */
+    font-family: "Lexend", sans-serif;
 
 }
 
-.item{
+.item {
     height: 240px;
     width: 270px;
     background-color: rgb(224, 223, 223);
     border-radius: 20px;
-    
-  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 
 
-    
+
 }
 
-.greybox{
+.greybox {
     display: flex;
     flex-direction: row;
     padding-top: 70px;
@@ -176,38 +178,49 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
-.word{
+
+.word {
     margin-top: 50px;
-     font-family: "Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
 
 }
 
-.desc{
+.desc {
     margin-top: 30px;
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.item a{
-     font-size: 20px;         /* text size */
-    padding: 10px 15px;      /* top/bottom and left/right spacing */
-    
-    color: #0c0c0c;             /* link color */
-    display: inline-block;   /* makes padding work properly */
-    transition: color 0.3s;  /* smooth hover effect */
+.item a {
+    font-size: 20px;
+    /* text size */
+    padding: 10px 15px;
+    /* top/bottom and left/right spacing */
+
+    color: #0c0c0c;
+    /* link color */
+    display: inline-block;
+    /* makes padding work properly */
+    transition: color 0.3s;
+    /* smooth hover effect */
 }
 
-.item a:hover{
-     font-size: 20px;         /* text size */
-    padding: 10px 15px;      /* top/bottom and left/right spacing */
-    
-    color: #525151;             /* link color */
-    display: inline-block;   /* makes padding work properly */
-    transition: color 0.3s;  /* smooth hover effect */
+.item a:hover {
+    font-size: 20px;
+    /* text size */
+    padding: 10px 15px;
+    /* top/bottom and left/right spacing */
+
+    color: #525151;
+    /* link color */
+    display: inline-block;
+    /* makes padding work properly */
+    transition: color 0.3s;
+    /* smooth hover effect */
 }
 
-.selected{
+.selected {
     font-family: "Lexend", sans-serif;
     font-size: 40px;
     font-weight: 600;
@@ -215,48 +228,49 @@ nav {
     padding-left: 50px;
 }
 
-.package{
+.package {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding-top: 50px;
 }
 
-.item2{
+.item2 {
     height: 300px;
     width: 520px;
     background-color: grey;
-    
+
 }
 
-.package2{
+.package2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    
+
     padding-top: 50px;
 }
 
-.item3{
+.item3 {
     height: 300px;
     width: 520px;
     background-color: grey;
-    
+
 }
 
-.package img{
+.package img {
     height: 300px;
     width: 530px;
     object-fit: cover;
 }
 
-.package2 img{
+.package2 img {
     height: 300px;
     width: 530px;
     object-fit: cover;
 }
 
-.item2, .item3 {
+.item2,
+.item3 {
     position: relative;
     overflow: hidden;
 }
@@ -290,7 +304,7 @@ nav {
     gap: 10px;
 }
 
-.overlay p{
+.overlay p {
     font-size: 30px;
     font-family: 'Quicksand';
     color: rgb(244, 238, 238);
@@ -306,7 +320,7 @@ nav {
 .overlay button {
     padding: 8px 16px;
     font-size: 16px;
-    background:none;
+    background: none;
     color: white;
     border: 2px solid white;
     border-radius: 6px;
@@ -314,13 +328,13 @@ nav {
     transition: 0.2s;
 }
 
-.overlay button:hover{
+.overlay button:hover {
     color: rgb(119, 118, 118);
     background-color: white;
     transition: 0.2s;
 }
 
-.viewmore button{
+.viewmore button {
     padding: 15px;
     border-radius: 30px;
     border: 2px solid black;
@@ -329,22 +343,22 @@ nav {
     transition: 0.2s;
 }
 
-.viewmore button:hover{
+.viewmore button:hover {
     padding: 15px;
-    
+
     border: 2px solid black;
     background: #fefefe;
     color: rgb(4, 4, 4);
     transition: 0.2s;
 }
 
-.viewmore{
+.viewmore {
     padding: 10px;
     margin-top: 50px;
     margin-left: 530px;
 }
 
-.frequent{
+.frequent {
     font-family: "Lexend", sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -352,46 +366,27 @@ nav {
     padding-left: 50px;
 }
 
-.questions{
+.questions {
     padding-top: 40px;
     padding-left: 50px;
 }
 
-.q{
+.q {
     background-color: rgb(249, 246, 189);
     height: 50px;
-    width: 900px;
+    width: 1200px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
     border-radius: 20px;
     font-family: "Lexend", sans-serif;
-    
+
 }
-.q1{
+
+.q1 {
     background-color: rgb(170, 243, 177);
     height: 50px;
-    width: 900px;
-    font-size: 20px;
-    align-content: center;
-    padding-left: 20px;
-    border-radius: 20px;
-    font-family: "Lexend", sans-serif;
-}
-.q2{
-    background-color: rgb(180, 198, 254);
-    height: 50px;
-    width: 900px;
-    font-size: 20px;
-    align-content: center;
-    padding-left: 20px;
-    border-radius: 20px;
-    font-family: "Lexend", sans-serif;
-}
-.q3{
-    background-color: rgb(235, 192, 207);
-    height: 50px;
-    width: 900px;
+    width: 1200px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -399,19 +394,41 @@ nav {
     font-family: "Lexend", sans-serif;
 }
 
-.ans{
+.q2 {
+    background-color: rgb(180, 198, 254);
+    height: 50px;
+    width: 1200px;
+    font-size: 20px;
+    align-content: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-family: "Lexend", sans-serif;
+}
+
+.q3 {
+    background-color: rgb(235, 192, 207);
+    height: 50px;
+    width: 1200px;
+    font-size: 20px;
+    align-content: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-family: "Lexend", sans-serif;
+}
+
+.ans {
     background-color: rgb(235, 235, 235);
     height: 100px;
-    width: 900px;
+    width: 1200px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
     border-radius: 20px;
     margin-top: 30px;
-   
+
 }
 
-.pack{
+.pack {
     font-size: 28px;
     font-family: "Lexend", sans-serif;
     font-weight: 600;
@@ -420,18 +437,233 @@ nav {
 }
 
 
-.pack2{
-    margin-left:250px; 
+.pack2 {
+    margin-left: 250px;
     padding-top: 30px;
 }
 
-.pack3{
-    margin-left:710px; 
+.pack3 {
+    margin-left: 710px;
     margin-top: -160px;
 }
 
-.pack4{
+.pack4 {
     padding-left: 255px;
     padding-top: 30px;
 }
 
+.p5 {
+
+    padding: 20px;
+
+}
+
+.team {
+    font-size: 39px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 90px;
+}
+
+/* Main big card */
+.greybg2 {
+    background: #f3f3f3;
+    /* slight grey */
+    padding: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.greybg2 small {
+    font-size: 14px;
+    color: #555;
+}
+
+.greybg2 h2 {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.greybg2 p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.greybg2 button {
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 45px;
+}
+
+.greybg2 button:hover {
+    opacity: 0.8;
+}
+
+.card-container {
+    display: flex;
+    /* makes the cards horizontal */
+    gap: 30px;
+    /* space between cards */
+    padding-left: 30px;
+}
+
+.profile-card {
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    /* stack image, name, button */
+    align-items: center;
+    /* center horizontally */
+    box-sizing: border-box;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* optional: makes it circular */
+    object-fit: cover;
+    /* ensures image fits inside without stretching */
+}
+
+.profile-name-row {
+    display: flex;
+    flex-direction: column;
+    /* stack name and button vertically */
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+    /* space between image and name/button */
+    text-align: center;
+}
+
+.profile-name-row button {
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile-name-row button:hover {
+    background: #333;
+}
+
+
+.large-card {
+    background: #f3f3f3; /* grey background */
+    padding: 60px 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: 100px auto; /* center horizontally */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.large-card h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.large-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.large-card button {
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.large-card button:hover {
+    background: #333;
+    transform: translateX(5px);
+}
+
+
+/* Footer CSS */
+.footer {
+    background: #424242;
+    color: white;
+    padding: 40px 20px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #f3f3f3;
+}
+
+.footer-column.social a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 200px;
+    margin-right: 300px;
+}

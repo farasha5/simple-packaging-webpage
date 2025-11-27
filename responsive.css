@@ -1,29 +1,141 @@
-@media screen and (min-width: 1000px) and (max-width: 1120px) {
-    .greybox {
-        display: flex;
+/* ===== Responsive CSS ===== */
+
+/* Tablet devices (width <= 1024px) */
+@media (max-width: 1024px) {
+    .card-container {
         flex-direction: row;
-         width: 98%;      /* box becomes smaller */
-        padding: 40px;
-        margin: 0 auto; 
-        row-gap: 10px;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .profile-card,
+    .greybg2 {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .large-card {
+        width: 80%;
+        padding: 40px 30px;
+    }
+
+    .slider-item img {
+        width: 18%;
+    }
+
+    .package,
+    .package2 {
+        flex-direction: column;
         align-items: center;
+        gap: 20px;
+    }
+
+    .item2,
+    .item3 {
+        width: 90%;
+    }
+
+    .questions .q,
+    .questions .q1,
+    .questions .q2,
+    .questions .q3,
+    .ans {
+        width: 90%;
+        padding-left: 15px;
+    }
+
+    .pack,
+    .pack2,
+    .pack3,
+    .pack4,
+    .team {
+        padding-left: 20px;
+    }
+
+    .viewmore {
+        margin-left: 0;
         text-align: center;
     }
 
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+        margin-right: 0;
+    }
 }
 
-@media screen and (min-width: 1121px) and (max-width:1195px){
-    .greybox {
-        display: flex;
-        flex-direction: row;
-         width: 100%;      /* box becomes larger */
-        padding: 40px;
-        margin: 0 auto; 
-        row-gap: 10px;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
+/* Mobile devices (width <= 600px) */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .brand-para {
+        font-size: 2rem;
+        padding-left: 20px;
+    }
+
+    .paragraph-para,
+    .com-para,
+    .moreinfo {
+        padding-left: 20px;
+    }
+
+    .slider-item {
+        gap: 10px;
+        overflow-x: scroll;
+    }
+
+    .slider-item img {
+        width: 25%;
+        margin-left: 10px;
+    }
+
+    .greybox {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .profile-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .large-card {
+        width: 95%;
+        padding: 30px 20px;
+    }
+
+    .questions .q,
+    .questions .q1,
+    .questions .q2,
+    .questions .q3,
+    .ans {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    
+
+    .container{
+        display: none;
+    }
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
