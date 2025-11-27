@@ -360,7 +360,7 @@ nav {
 .q{
     background-color: rgb(249, 246, 189);
     height: 50px;
-    width: 550px;
+    width: 900px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -371,7 +371,7 @@ nav {
 .q1{
     background-color: rgb(170, 243, 177);
     height: 50px;
-    width: 550px;
+    width: 900px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -381,7 +381,7 @@ nav {
 .q2{
     background-color: rgb(180, 198, 254);
     height: 50px;
-    width: 550px;
+    width: 900px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -391,7 +391,7 @@ nav {
 .q3{
     background-color: rgb(235, 192, 207);
     height: 50px;
-    width: 550px;
+    width: 900px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -402,7 +402,7 @@ nav {
 .ans{
     background-color: rgb(235, 235, 235);
     height: 100px;
-    width: 550px;
+    width: 900px;
     font-size: 20px;
     align-content: center;
     padding-left: 20px;
@@ -410,3 +410,28 @@ nav {
     margin-top: 30px;
    
 }
+
+.pack{
+    font-size: 28px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    padding-left: 255px;
+    padding-top: 90px;
+}
+
+
+.pack2{
+    margin-left:250px; 
+    padding-top: 30px;
+}
+
+.pack3{
+    margin-left:710px; 
+    margin-top: -160px;
+}
+
+.pack4{
+    padding-left: 255px;
+    padding-top: 30px;
+}
+
