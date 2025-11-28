@@ -126,7 +126,9 @@
     .ans {
         width: 100%;
         font-size: 16px;
-        padding-left: 10px;
+        position: relative;
+        right: 30px; /* move left */
+    
     }
 
     
